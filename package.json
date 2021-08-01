@@ -1,8 +1,9 @@
 {
   "name": "asma-types",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "shared ts asma types",
   "main": "lib/index.js",
+  "type": "module",
   "types": "lib",
   "author": "ie",
   "license": "MIT",
