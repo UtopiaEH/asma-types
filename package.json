@@ -1,0 +1,23 @@
+{
+  "name": "asma-types",
+  "version": "1.0.0",
+  "description": "shared ts asma types",
+  "main": "lib/index.js",
+  "types": "lib",
+  "author": "ie",
+  "license": "MIT",
+  "private": "false",
+  "scripts": {
+    "build": "tsc -p .",
+    "genql": "genql --endpoint http://localhost:7001/v1/graphql --esm --output ./generated/directory -H \"x-hasura-admin-secret: srvdirectory\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://avanssoma@dev.azure.com/avanssoma/Arbeidoginkludering/_git/asma-types"
+  },
+  "devDependencies": {
+    "@genql/cli": "^2.6.0",
+    "typescript": "^4.2.3"
+  }
+}
