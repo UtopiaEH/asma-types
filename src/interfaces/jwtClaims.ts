@@ -1,4 +1,4 @@
-import type { roles_enum } from '../generated/directory/schema'
+import type { feature_names_enum, roles_enum } from '../generated/directory/schema'
 export interface IBaseJwtClaims {
     user_id: string
     role: roles_enum
@@ -18,7 +18,7 @@ export interface ITherapistOrSuperUserJwtClaims extends IBaseJwtClaims {
     region: string
     customer_id: string
     services: IService
-    features: string[]
+    features: feature_names_enum[]
 }
 export interface IService {
     [key: string]: string[]

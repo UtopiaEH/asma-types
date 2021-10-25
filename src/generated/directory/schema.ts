@@ -1,4 +1,4 @@
-import type {FieldsSelection,Observable} from '@genql/runtime'
+import {FieldsSelection,Observable} from '@genql/runtime'
 
 export type Scalars = {
     Boolean: boolean,
@@ -1038,7 +1038,7 @@ export interface feature_names_aggregate_fields {
 /** unique or primary key constraints on table "feature_names" */
 export type feature_names_constraint = 'feature_names_pkey'
 
-export type feature_names_enum = 'test'
+export type feature_names_enum = 'anonymousQnr' | 'autoImportableQnr' | 'dashboardTraceability' | 'ordersOverviewOnSelectedRecipientsForQnr' | 'predefinedUserForQnr' | 'rejectableQnr' | 'signByTherapistDocument' | 'test'
 
 
 /** aggregate max on columns */
