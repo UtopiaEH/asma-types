@@ -38,22 +38,22 @@ export declare enum ActorTypes {
     Custom = "custom",
     Complex = "complex"
 }
-export declare enum ConsentsGroup {
+export declare enum ConsentsGroupTypes {
     GENERAL = "GENERAL",
     QUERY = "QUERY",
     COMMUNICATION = "COMMUNICATION"
 }
-export declare enum ConsentsType {
+export declare enum ConsentsTypeTypes {
     MANDATORY = "MANDATORY",
     OPTIONAL = "OPTIONAL"
 }
-export declare enum DocumentPatientSecurityLevel {
+export declare enum DocumentPatientSecurityLevelTypes {
     ONE = "1",
     TWO = "2",
     THREE = "3",
     FOUR = "4"
 }
-export declare enum QueriesStatus {
+export declare enum QueriesStatusTypes {
     INBOUND = "INBOUND",
     IN_PROGRESS = "IN_PROGRESS",
     AWAITING_REPLY = "AWAITING_REPLY",
@@ -62,21 +62,21 @@ export declare enum QueriesStatus {
     PROCESSED = "PROCESSED",
     REJECTED = "REJECTED"
 }
-export declare enum QueriesInitiator {
+export declare enum QueriesInitiatorTypes {
     PATIENT = "PATIENT",
     CUSTOMER = "CUSTOMER",
     SELFCOMPLETABLE = "SELFCOMPLETABLE"
 }
-export declare enum SmsTemplatesCategory {
+export declare enum SmsTemplatesCategoryTypes {
     INFO = "INFO",
     REJECT = "REJECT"
 }
-export declare enum TemplatesContext {
+export declare enum TemplatesContextTypes {
     ADVOCA = "ADVOCA",
     PORTAL = "PORTAL",
     OUTLOOK = "OUTLOOK"
 }
-export declare enum TemplatesAccessible {
+export declare enum TemplatesAccessibleTypes {
     PATIENT = "PATIENT",
     CUSTOMER = "CUSTOMER"
 }
