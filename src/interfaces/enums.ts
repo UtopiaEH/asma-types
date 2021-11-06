@@ -45,25 +45,25 @@ export enum ActorTypes {
     Complex = 'complex',
 }
 
-export enum ConsentsGroup {
+export enum ConsentsGroupTypes {
     GENERAL = 'GENERAL',
     QUERY = 'QUERY',
     COMMUNICATION = 'COMMUNICATION',
 }
 
-export enum ConsentsType {
+export enum ConsentsTypeTypes {
     MANDATORY = 'MANDATORY',
     OPTIONAL = 'OPTIONAL',
 }
 
-export enum DocumentPatientSecurityLevel {
+export enum DocumentPatientSecurityLevelTypes {
     ONE = '1',
     TWO = '2',
     THREE = '3',
     FOUR = '4',
 }
 
-export enum QueriesStatus {
+export enum QueriesStatusTypes {
     INBOUND = 'INBOUND',
     IN_PROGRESS = 'IN_PROGRESS',
     AWAITING_REPLY = 'AWAITING_REPLY',
@@ -73,24 +73,24 @@ export enum QueriesStatus {
     REJECTED = 'REJECTED',
 }
 
-export enum QueriesInitiator {
+export enum QueriesInitiatorTypes {
     PATIENT = 'PATIENT',
     CUSTOMER = 'CUSTOMER',
     SELFCOMPLETABLE = 'SELFCOMPLETABLE',
 }
 
-export enum SmsTemplatesCategory {
+export enum SmsTemplatesCategoryTypes {
     INFO = 'INFO',
     REJECT = 'REJECT',
 }
 
-export enum TemplatesContext {
+export enum TemplatesContextTypes {
     ADVOCA = 'ADVOCA',
     PORTAL = 'PORTAL',
     OUTLOOK = 'OUTLOOK',
 }
 
-export enum TemplatesAccessible {
+export enum TemplatesAccessibleTypes {
     PATIENT = 'PATIENT',
     CUSTOMER = 'CUSTOMER',
 }
