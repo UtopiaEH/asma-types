@@ -39,13 +39,13 @@ export declare enum ActorTypes {
     Complex = "complex"
 }
 export declare enum ConsentsGroupTypes {
-    GENERAL = "GENERAL",
-    QUERY = "QUERY",
-    COMMUNICATION = "COMMUNICATION"
+    General = "GENERAL",
+    Query = "QUERY",
+    Communication = "COMMUNICATION"
 }
 export declare enum ConsentsTypeTypes {
-    MANDATORY = "MANDATORY",
-    OPTIONAL = "OPTIONAL"
+    Mandatory = "MANDATORY",
+    Optional = "OPTIONAL"
 }
 export declare enum DocumentPatientSecurityLevelTypes {
     ONE = "1",
@@ -54,30 +54,30 @@ export declare enum DocumentPatientSecurityLevelTypes {
     FOUR = "4"
 }
 export declare enum QueriesStatusTypes {
-    INBOUND = "INBOUND",
-    IN_PROGRESS = "IN_PROGRESS",
-    AWAITING_REPLY = "AWAITING_REPLY",
-    EXPIRED = "EXPIRED",
-    COMPLETED = "COMPLETED",
-    PROCESSED = "PROCESSED",
-    REJECTED = "REJECTED"
+    InBound = "INBOUND",
+    InProgress = "IN_PROGRESS",
+    AwaitingReply = "AWAITING_REPLY",
+    Expired = "EXPIRED",
+    Completed = "COMPLETED",
+    Processed = "PROCESSED",
+    Rejected = "REJECTED"
 }
 export declare enum QueriesInitiatorTypes {
-    PATIENT = "PATIENT",
-    CUSTOMER = "CUSTOMER",
-    SELFCOMPLETABLE = "SELFCOMPLETABLE"
+    Patient = "PATIENT",
+    Customer = "CUSTOMER",
+    SelfCompletable = "SELFCOMPLETABLE"
 }
 export declare enum SmsTemplatesCategoryTypes {
-    INFO = "INFO",
-    REJECT = "REJECT"
+    Info = "INFO",
+    Reject = "REJECT"
 }
 export declare enum TemplatesContextTypes {
-    ADVOCA = "ADVOCA",
-    PORTAL = "PORTAL",
-    OUTLOOK = "OUTLOOK"
+    Advoca = "ADVOCA",
+    Portal = "PORTAL",
+    Outlook = "OUTLOOK"
 }
 export declare enum TemplatesAccessibleTypes {
-    PATIENT = "PATIENT",
-    CUSTOMER = "CUSTOMER"
+    Patient = "PATIENT",
+    Customer = "CUSTOMER"
 }
 //# sourceMappingURL=enums.d.ts.map

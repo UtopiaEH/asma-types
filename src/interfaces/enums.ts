@@ -46,14 +46,14 @@ export enum ActorTypes {
 }
 
 export enum ConsentsGroupTypes {
-    GENERAL = 'GENERAL',
-    QUERY = 'QUERY',
-    COMMUNICATION = 'COMMUNICATION',
+    General = 'GENERAL',
+    Query = 'QUERY',
+    Communication = 'COMMUNICATION',
 }
 
 export enum ConsentsTypeTypes {
-    MANDATORY = 'MANDATORY',
-    OPTIONAL = 'OPTIONAL',
+    Mandatory = 'MANDATORY',
+    Optional = 'OPTIONAL',
 }
 
 export enum DocumentPatientSecurityLevelTypes {
@@ -64,33 +64,33 @@ export enum DocumentPatientSecurityLevelTypes {
 }
 
 export enum QueriesStatusTypes {
-    INBOUND = 'INBOUND',
-    IN_PROGRESS = 'IN_PROGRESS',
-    AWAITING_REPLY = 'AWAITING_REPLY',
-    EXPIRED = 'EXPIRED',
-    COMPLETED = 'COMPLETED',
-    PROCESSED = 'PROCESSED',
-    REJECTED = 'REJECTED',
+    InBound = 'INBOUND',
+    InProgress = 'IN_PROGRESS',
+    AwaitingReply = 'AWAITING_REPLY',
+    Expired = 'EXPIRED',
+    Completed = 'COMPLETED',
+    Processed = 'PROCESSED',
+    Rejected = 'REJECTED',
 }
 
 export enum QueriesInitiatorTypes {
-    PATIENT = 'PATIENT',
-    CUSTOMER = 'CUSTOMER',
-    SELFCOMPLETABLE = 'SELFCOMPLETABLE',
+    Patient = 'PATIENT',
+    Customer = 'CUSTOMER',
+    SelfCompletable = 'SELFCOMPLETABLE',
 }
 
 export enum SmsTemplatesCategoryTypes {
-    INFO = 'INFO',
-    REJECT = 'REJECT',
+    Info = 'INFO',
+    Reject = 'REJECT',
 }
 
 export enum TemplatesContextTypes {
-    ADVOCA = 'ADVOCA',
-    PORTAL = 'PORTAL',
-    OUTLOOK = 'OUTLOOK',
+    Advoca = 'ADVOCA',
+    Portal = 'PORTAL',
+    Outlook = 'OUTLOOK',
 }
 
 export enum TemplatesAccessibleTypes {
-    PATIENT = 'PATIENT',
-    CUSTOMER = 'CUSTOMER',
+    Patient = 'PATIENT',
+    Customer = 'CUSTOMER',
 }
